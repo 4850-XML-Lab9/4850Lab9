@@ -8,7 +8,7 @@ This is the new and improved lab 7 also known as lab 9
 ************
 Team Members
 ************
-Khang Tran 
+Khang Tran - Acknowledged
 Mark Batin 
 Johnny Kang
 
