@@ -2,6 +2,7 @@
 
 
 <!-- This is the facet structure for all the courses we want displayed -->
+<!-- We changed the time standard from hh:mm to hh:mm:ss to work with the schema -->
 <schedule 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="classSchedule.xsd">
