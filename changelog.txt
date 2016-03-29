@@ -1,0 +1,12 @@
+Change log
+Newest at the top
+
+03/22/2016 12:06AM: Cleaned up and created new class called Booking()
+03/08/2016 12:58AM: Updated and repaired the timeslot_facet.xml
+03/08/2016 11:30PM: Updated and repaired the course.xml
+03/08/2016 10:20PM: Updated and repaired the days_facet.xml
+03/08/2016 5:30PM: Created the timeslot_facet.xml
+03/07/2016 10:00AM: Created the days_facet.xml
+03/07/2016 1:20PM: Created the course.xml
+03/07/2016 2:00PM: Updated the classSchedule.dtd
+03/04/2016 11:00AM: Created the classSchedule.dtd
