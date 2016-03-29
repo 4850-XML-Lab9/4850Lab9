@@ -88,5 +88,31 @@ and open the template in the editor.
     
     
     <!-- Booking for all three facets: Courses, Days, and Timeslots -->
+    <xs:complexType name="Cbooking">
+        <xs:attribute name="weekDay" type="Tweekday" use="required"/>
+        <xs:attribute name="startTime" type="HourMinuteTime" use="required"/>
+        <xs:attribute name="endTime" type="HourMinuteTime" use="required"/>
+        <xs:attribute name="instructor" type="xs:string" use="required"/>
+        <xs:attribute name="classActivity" type="xs:string" use="required"/>
+        <xs:attribute name="classLocation" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+     <xs:complexType name="Dbooking">
+        <xs:attribute name="courseID" type="TcourseID" use="required"/>
+        <xs:attribute name="startTime" type="HourMinuteTime" use="required"/>
+        <xs:attribute name="endTime" type="HourMinuteTime" use="required"/>
+        <xs:attribute name="instructor" type="xs:string" use="required"/>
+        <xs:attribute name="classActivity" type="xs:string" use="required"/>
+        <xs:attribute name="classLocation" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="Tbooking">
+        <xs:attribute name="courseID" type="TcourseID" use="required"/>
+        <xs:attribute name="weekDay" type="Tweekday" use="required"/>
+        <xs:attribute name="endTime" type="HourMinuteTime" use="required"/>
+        <xs:attribute name="instructor" type="xs:string" use="required"/>
+        <xs:attribute name="classActivity" type="xs:string" use="required"/>
+        <xs:attribute name="classLocation" type="xs:string" use="required"/>
+    </xs:complexType>
     
 </xs:schema>
