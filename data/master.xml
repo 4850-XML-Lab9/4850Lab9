@@ -7,85 +7,85 @@
     xsi:noNamespaceSchemaLocation="classSchedule.xsd">
     <courses>
         <course courseID="4620">
-            <booking weekDay="Tuesday" startTime="10:30" endTime="12:20" instructor="Bethany" classActivity="Lab" classLocation="SE12-306" />
-            <booking weekDay="Tuesday" startTime="03:30" endTime="05:20" instructor="Bethany" classActivity="Lecture" classLocation="SW3-3615" />
+            <booking weekDay="Tuesday" startTime="10:30:00" endTime="12:20:00" instructor="Bethany" classActivity="Lab" classLocation="SE12-306" />
+            <booking weekDay="Tuesday" startTime="03:30:00" endTime="05:20:00" instructor="Bethany" classActivity="Lecture" classLocation="SW3-3615" />
         </course>
         <course courseID="4650">
-            <booking weekDay="Monday" startTime="04:30" endTime="05:20" instructor="Medhat" classActivity="Lecture" classLocation="SE6-205" />
-            <booking weekDay="Tuesday" startTime="12:30" endTime="01:20" instructor="Medhat" classActivity="Lecture" classLocation="SW9-206" />
-            <booking weekDay="Tuesday" startTime="01:30" endTime="03:20" instructor="Medhat" classActivity="Lab" classLocation="SE12-306" />
+            <booking weekDay="Monday" startTime="04:30:00" endTime="05:20:00" instructor="Medhat" classActivity="Lecture" classLocation="SE6-205" />
+            <booking weekDay="Tuesday" startTime="12:30:00" endTime="01:20:00" instructor="Medhat" classActivity="Lecture" classLocation="SW9-206" />
+            <booking weekDay="Tuesday" startTime="01:30:00" endTime="03:20:00" instructor="Medhat" classActivity="Lab" classLocation="SE12-306" />
         </course>
         <course courseID="4660">
-            <booking weekDay="Wednesday" startTime="10:30" endTime="12:20" instructor="Steve" classActivity="Lab" classLocation="SE12-306" />
-            <booking weekDay="Friday" startTime="08:30" endTime="10:20" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
+            <booking weekDay="Wednesday" startTime="10:30:00" endTime="12:20:00" instructor="Steve" classActivity="Lab" classLocation="SE12-306" />
+            <booking weekDay="Friday" startTime="08:30:00" endTime="10:20:00" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
         </course>
         <course courseID="4770">
-            <booking weekDay="Monday" startTime="01:30" endTime="03:20" instructor="Trevor" classActivity="Tutorial" classLocation="SE12-306" />
+            <booking weekDay="Monday" startTime="01:30:00" endTime="03:20:00" instructor="Trevor" classActivity="Tutorial" classLocation="SE12-306" />
         </course>
         <course courseID="4850">
-            <booking weekDay="Wednesday" startTime="12:30" endTime="02:20" instructor="Jim" classActivity="Lecture" classLocation="SW3-1750" />
-            <booking weekDay="Thursday" startTime="10:30" endTime="12:20" instructor="Jim" classActivity="Lab" classLocation="SE12-320" />
+            <booking weekDay="Wednesday" startTime="12:30:00" endTime="02:20:00" instructor="Jim" classActivity="Lecture" classLocation="SW3-1750" />
+            <booking weekDay="Thursday" startTime="10:30:00" endTime="12:20:00" instructor="Jim" classActivity="Lab" classLocation="SE12-320" />
         </course>
         <course courseID="4910">
-            <booking weekDay="Monday" startTime="03:30" endTime="04:20" instructor="Richard" classActivity="Lecture" classLocation="SW9-206" />
-            <booking weekDay="Thursday" startTime="09:30" endTime="10:20" instructor="Richard" classActivity="Lecture" classLocation="SW5-1840" />
-            <booking weekDay="Thursday" startTime="01:30" endTime="03:20" instructor="Richard" classActivity="Lab" classLocation="SE12-306" />
+            <booking weekDay="Monday" startTime="03:30:00" endTime="04:20:00" instructor="Richard" classActivity="Lecture" classLocation="SW9-206" />
+            <booking weekDay="Thursday" startTime="09:30:00" endTime="10:20:00" instructor="Richard" classActivity="Lecture" classLocation="SW5-1840" />
+            <booking weekDay="Thursday" startTime="01:30:00" endTime="03:20:00" instructor="Richard" classActivity="Lab" classLocation="SE12-306" />
         </course>
     </courses>
 
     <days>
         <day weekDay="Monday">
-            <booking courseID="4770" startTime="01:30" endTime="03:20" instructor="Trevor" classActivity="Tutorial" classLocation="SE12-306" />
-            <booking courseID="4910" startTime="03:30" endTime="04:20" instructor="Richard" classActivity="Lecture" classLocation="SW9-206" />
-            <booking courseID="4650" startTime="04:30" endTime="05:20" instructor="Medhat" classActivity="Lecture" classLocation="SE6-205" />
+            <booking courseID="4770" startTime="01:30:00" endTime="03:20:00" instructor="Trevor" classActivity="Tutorial" classLocation="SE12-306" />
+            <booking courseID="4910" startTime="03:30:00" endTime="04:20:00" instructor="Richard" classActivity="Lecture" classLocation="SW9-206" />
+            <booking courseID="4650" startTime="04:30:00" endTime="05:20:00" instructor="Medhat" classActivity="Lecture" classLocation="SE6-205" />
         </day>
         <day weekDay="Tuesday">
-            <booking courseID="4620" startTime="10:30" endTime="12:20" instructor="Bethany" classActivity="Lab" classLocation="SE12-306" />
-            <booking courseID="4650" startTime="12:30" endTime="01:20" instructor="Medhat" classActivity="Lecture" classLocation="SW9-206" />
-            <booking courseID="4650" startTime="01:30" endTime="03:20" instructor="Medhat" classActivity="Lab" classLocation="SE12-306" />
-            <booking courseID="4620" startTime="03:30" endTime="05:20" instructor="Bethany" classActivity="Lecture" classLocation="SW3-3615" />
+            <booking courseID="4620" startTime="10:30:00" endTime="12:20:00" instructor="Bethany" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4650" startTime="12:30:00" endTime="01:20:00" instructor="Medhat" classActivity="Lecture" classLocation="SW9-206" />
+            <booking courseID="4650" startTime="01:30:00" endTime="03:20:00" instructor="Medhat" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4620" startTime="03:30:00" endTime="05:20:00" instructor="Bethany" classActivity="Lecture" classLocation="SW3-3615" />
         </day>
         <day weekDay="Wednesday">
-            <booking courseID="4660" startTime="10:30" endTime="12:20" instructor="Steve" classActivity="Lab" classLocation="SE12-306" />
-            <booking courseID="4850" startTime="12:30" endTime="02:20" instructor="Jim" classActivity="Lecture" classLocation="SW3-1750" />
+            <booking courseID="4660" startTime="10:30:00" endTime="12:20:00" instructor="Steve" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4850" startTime="12:30:00" endTime="02:20:00" instructor="Jim" classActivity="Lecture" classLocation="SW3-1750" />
         </day>
         <day weekDay="Thursday">
-            <booking courseID="4910" startTime="09:30" endTime="10:20" instructor="Richard" classActivity="Lecture" classLocation="SW5-1840" />
-            <booking courseID="4850" startTime="10:30" endTime="12:20" instructor="Jim" classActivity="Lab" classLocation="SE12-320" />
-            <booking courseID="4910" startTime="01:30" endTime="03:20" instructor="Richard" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4910" startTime="09:30:00" endTime="10:20:00" instructor="Richard" classActivity="Lecture" classLocation="SW5-1840" />
+            <booking courseID="4850" startTime="10:30:00" endTime="12:20:00" instructor="Jim" classActivity="Lab" classLocation="SE12-320" />
+            <booking courseID="4910" startTime="01:30:00" endTime="03:20:00" instructor="Richard" classActivity="Lab" classLocation="SE12-306" />
         </day>
         <day weekDay="Friday">
-            <booking courseID="4660" startTime="08:30" endTime="10:20" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
+            <booking courseID="4660" startTime="08:30:00" endTime="10:20:00" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
         </day>
     </days>
 
     <timeslots>
-        <timeslot startTime="08:30">
-            <booking courseID="4660" weekDay="Friday" endTime="10:20" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
+        <timeslot startTime="08:30:00">
+            <booking courseID="4660" weekDay="Friday" endTime="10:20:00" instructor="Steve" classActivity="Lecture" classLocation="SW9-206" />
         </timeslot>
-        <timeslot startTime="09:30">
-            <booking courseID="4910" weekDay="Thursday" endTime="10:20" instructor="Richard" classActivity="Lecture" classLocation="SW5-1840" />
+        <timeslot startTime="09:30:00">
+            <booking courseID="4910" weekDay="Thursday" endTime="10:20:00" instructor="Richard" classActivity="Lecture" classLocation="SW5-1840" />
         </timeslot>
-        <timeslot startTime="10:30">
-            <booking courseID="4620" weekDay="Tuesday" endTime="12:20" instructor="Bethany" classActivity="Lab" classLocation="SE12-306" />
-            <booking courseID="4660" weekDay="Wednesday" endTime="12:20" instructor="Steve" classActivity="Lab" classLocation="SE12-306" />
-            <booking courseID="4850" weekDay="Thursday" endTime="12:20" instructor="Jim" classActivity="Lab" classLocation="SE12-320" />
+        <timeslot startTime="10:30:00">
+            <booking courseID="4620" weekDay="Tuesday" endTime="12:20:00" instructor="Bethany" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4660" weekDay="Wednesday" endTime="12:20:00" instructor="Steve" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4850" weekDay="Thursday" endTime="12:20:00" instructor="Jim" classActivity="Lab" classLocation="SE12-320" />
         </timeslot>
-        <timeslot startTime="11:30">
-            <booking courseID="4650" weekDay="Tuesday" endTime="01:20" instructor="Medhat" classActivity="Lecture" classLocation="SW9-206" />
-            <booking courseID="4850" weekDay="Wednesday" endTime="02:20" instructor="Jim" classActivity="Lecture" classLocation="SW3-1750" />
+        <timeslot startTime="11:30:00">
+            <booking courseID="4650" weekDay="Tuesday" endTime="01:20:00" instructor="Medhat" classActivity="Lecture" classLocation="SW9-206" />
+            <booking courseID="4850" weekDay="Wednesday" endTime="02:20:00" instructor="Jim" classActivity="Lecture" classLocation="SW3-1750" />
         </timeslot>
-        <timeslot startTime="01:30">
-            <booking courseID="4770" weekDay="Monday" endTime="03:20" instructor="Trevor" classActivity="Tutorial" classLocation="SE12-306" />
-            <booking courseID="4650" weekDay="Tuesday" endTime="03:20" instructor="Medhat" classActivity="Lab" classLocation="SE12-306" />
-            <booking courseID="4910" weekDay="Thursday" endTime="03:20" instructor="Richard" classActivity="Lab" classLocation="SE12-306" />
+        <timeslot startTime="01:30:00">
+            <booking courseID="4770" weekDay="Monday" endTime="03:20:00" instructor="Trevor" classActivity="Tutorial" classLocation="SE12-306" />
+            <booking courseID="4650" weekDay="Tuesday" endTime="03:20:00" instructor="Medhat" classActivity="Lab" classLocation="SE12-306" />
+            <booking courseID="4910" weekDay="Thursday" endTime="03:20:00" instructor="Richard" classActivity="Lab" classLocation="SE12-306" />
         </timeslot>
-        <timeslot startTime="03:30">
-            <booking courseID="4910" weekDay="Monday" endTime="04:20" instructor="Richard" classActivity="Lecture" classLocation="SW9-206" />
-            <booking courseID="4620" weekDay="Tuesday" endTime="05:20" instructor="Bethany" classActivity="Lecture" classLocation="SW3-3615" />
+        <timeslot startTime="03:30:00">
+            <booking courseID="4910" weekDay="Monday" endTime="04:20:00" instructor="Richard" classActivity="Lecture" classLocation="SW9-206" />
+            <booking courseID="4620" weekDay="Tuesday" endTime="05:20:00" instructor="Bethany" classActivity="Lecture" classLocation="SW3-3615" />
         </timeslot>
-        <timeslot startTime="04:30">
-            <booking courseID="4650" weekDay="Monday" endTime="05:20" instructor="Medhat" classActivity="Lecture" classLocation="SE6-205" />
+        <timeslot startTime="04:30:00">
+            <booking courseID="4650" weekDay="Monday" endTime="05:20:00" instructor="Medhat" classActivity="Lecture" classLocation="SE6-205" />
         </timeslot>
             
     </timeslots>
