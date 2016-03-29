@@ -7,6 +7,7 @@ and open the template in the editor.
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     
+    <!-- Theses are the attribute types we created for the time, and day for the elements -->
     <xs:simpleType name="Ttime">
         <xs:restriction base="xs:integer">
             <xs:pattern value="[0-2][0-9][0-5][0-9]"/>
@@ -36,6 +37,7 @@ and open the template in the editor.
         </xs:restriction>
     </xs:simpleType>
     
+    <!-- this element represents the schedule structure including the three facets -->
     <xs:element name="schedule">
         <xs:complexType>
             <xs:sequence>
@@ -46,7 +48,8 @@ and open the template in the editor.
         </xs:complexType>
     </xs:element>
     
-    
+    <!-- Complex type (element) for timeslots with the startTime attribute calling 
+    type HourMinuteTime declared earlier -->
     <xs:complexType name="Ttimeslots">
         <xs:sequence>
             <xs:element name="timeslot" type="Ttimeslot" maxOccurs="9"/>
@@ -60,6 +63,8 @@ and open the template in the editor.
         <xs:attribute name="startTime" type="HourMinuteTime" use="required"/>
     </xs:complexType>
     
+    <!-- Complex type (element) for days with the weekDay attribute calling type Tday
+    declared earlier -->
     <xs:complexType name="Tdays">
         <xs:sequence>
             <xs:element name="day" type="Tday" maxOccurs="6"/>
@@ -73,6 +78,8 @@ and open the template in the editor.
         <xs:attribute name="weekDay" type="Tweekday" use="required"/>
     </xs:complexType>
     
+    <!-- Complex type (element) for courses with the courseID attribute calling type TcourseID
+    declared earlier -->
     <xs:complexType name="Tcourses">
         <xs:sequence>
             <xs:element name="course" type="Tcourse" maxOccurs="6"/>
@@ -87,7 +94,8 @@ and open the template in the editor.
     </xs:complexType>
     
     
-    <!-- Booking for all three facets: Courses, Days, and Timeslots -->
+    <!-- Booking attributes for all three facets: Courses, Days, and Timeslots -->
+    <!-- Created 3 different bookings with different attributes for three facets -->
     <xs:complexType name="Cbooking">
         <xs:attribute name="weekDay" type="Tweekday" use="required"/>
         <xs:attribute name="startTime" type="HourMinuteTime" use="required"/>
